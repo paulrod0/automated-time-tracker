@@ -60,7 +60,7 @@ try:
             active_window_name = new_window_name
 
 
-        time.sleep(10)
+        time.sleep(11)
 except KeyboardInterrupt:
     with open('activities.json', 'w') as json_file:  
         json.dump(activeList.serialize(), json_file, indent=4, sort_keys=True)
